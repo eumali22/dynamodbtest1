@@ -2,15 +2,16 @@
   "name": "dynamodbtest1",
   "version": "1.0.0",
   "description": "",
-  "main": "hello-world.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node book-api.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@aws-sdk/lib-dynamodb": "^3.53.0",
     "body-parser": "^1.19.2",
     "cors": "^2.8.5",
     "express": "^4.17.3"
